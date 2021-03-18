@@ -1,5 +1,5 @@
 # Truth or Error? Towards systematic analysis of factual errors in abstractive summaries
-Materials for our EMNLP 2020 workshop paper "Truth or Error? Towards systematic analysis of factual errors inabstractive summaries".
+Materials for our EMNLP 2020 workshop paper "Truth or Error? Towards systematic analysis of factual errors in abstractive summaries".
 
 ## Annotations
 [The annotation file](all_annotations.jsonl) is in JSON lines format. Each line contains one summary. Each summary contains the name of the CNN/DM story file that contains the article that is summarized and the name of the system that was used. We also provide the sentences of the summary. Annotations are provided separately for each annotator, listing the annotations that each sentence received. Additionally, we also provide the results of arbritration when annotators disagreed, these can be found in a separate field (*merged_annotations*). To reproduce the numbers below, use these annotations for the 30 articles for which they are available and combine them with the annotations of rater Z, who annotated an additional 170 articles. 
